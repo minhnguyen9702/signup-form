@@ -35,11 +35,10 @@ select {
     align-items: center;
 }
 
-a,
-a:hover,
-a:visited,
-a:active {
-    color: inherit;
+#logo {
+    height: 4rem;
+    vertical-align:-14%;
+    margin-right: 20px;
 }
 
 #pastrie {
@@ -56,6 +55,13 @@ a:active {
 
 #credit {
     margin-top: auto;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
 }
 
 #inputs {
