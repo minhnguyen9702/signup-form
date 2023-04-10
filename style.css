@@ -1,9 +1,45 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+div {
+    font-family: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input,
+button,
+select {
+    appearance: none;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    min-width: 320px;
+    max-width: 40%;
+    background-image: url(elena-koycheva-PFzy4N0_R3M-unsplash.jpg);
+    background-size: cover;
+}
+
 #inputs {
     display: flex;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
 }
