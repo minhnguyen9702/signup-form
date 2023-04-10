@@ -25,10 +25,37 @@ select {
 }
 
 #sidebar {
-    min-width: 320px;
-    max-width: 40%;
+    min-width: 35%;
+    height: 100vh;
     background-image: url(elena-koycheva-PFzy4N0_R3M-unsplash.jpg);
     background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
+}
+
+#pastrie {
+    font-size: 4rem;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 2.5vh;
+    margin-top: 25vh;
+}
+
+#credit {
+    margin-top: auto;
 }
 
 #inputs {
