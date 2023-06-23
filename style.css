@@ -65,6 +65,13 @@ a:active {
     display: flex;
     background-color: rgb(255, 225, 225);
     width:65vw;
+    padding:1rem;
+}
+
+span{
+    position: absolute;
+    top: 34rem;
+    color: red;
 }
 
 input,
@@ -129,5 +136,9 @@ button{
     margin-top: 2em;
     margin-bottom: 1em;
     font-size: large;
+    background-color: pink;
 }
 
+#login {
+    color: rgb(255, 71, 101)
+}
