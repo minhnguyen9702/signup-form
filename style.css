@@ -48,15 +48,23 @@ div {
     margin-bottom: 1rem;
 }
 
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 a,
 a:hover,
 a:visited,
 a:active {
-    color: inherit;
+    color: inherit; 
 }
 
 #inputs {
     display: flex;
+    background-color: rgb(255, 225, 225);
+    width:65vw;
 }
 
 input,
@@ -101,5 +109,25 @@ input:placeholder-shown {
 input:focus,
 input:hover {
     border-color: pink;
+}
+
+.toptext, .bottomtext {
+    margin: 0px;
+    padding-left: 40px;
+    font-size: larger;
+}
+
+#want{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    margin-left: 40px;
+    padding: 1.1em;
+    border-radius: 30px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: large;
 }
 
