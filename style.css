@@ -79,8 +79,11 @@ li {
 }
 
 input {
-    height: 1.6rem;
-    border-radius: 10px;
+    height: 1.8rem;
+    min-width: 20vw;
+    max-width: 250px;
+    border-radius: 20px;
+    padding-left: 10px;
 }
 
 input:valid {
