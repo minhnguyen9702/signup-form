@@ -1,7 +1,7 @@
 body {
-    background-color: #fff;
+    background-color: rgb(255, 230, 230);
     color: #333;
-    font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+    font: 1em / 1.4 Helvetica, Arial, sans-serif;
     margin: 0;
     display: flex;
 }
@@ -63,14 +63,14 @@ a:active {
 
 #inputs {
     display: flex;
-    background-color: rgb(255, 225, 225);
+    background-color: pink;
     width:65vw;
     padding:1rem;
 }
 
 span{
     position: absolute;
-    top: 34rem;
+    top: 552px;
     color: red;
 }
 
@@ -131,9 +131,9 @@ input:hover {
 
 button{
     margin-left: 40px;
-    padding: 1.1em;
+    padding: 1em;
     border-radius: 30px;
-    margin-top: 2em;
+    margin-top: 1.2em;
     margin-bottom: 1em;
     font-size: large;
     background-color: pink;
