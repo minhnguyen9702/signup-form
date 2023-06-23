@@ -68,9 +68,13 @@ a:active {
     padding:1rem;
 }
 
+#pass {
+    position: relative;
+}
+
 span{
     position: absolute;
-    top: 554px;
+    top: 56px;
     color: red;
 }
 
